@@ -8,12 +8,10 @@ from mysql.connector import errorcode
 
 # Obtain connection string information from the portal
 config = {
-  'host':'kajoldemoserver.mysql.database.azure.com',
-  'user':'kajoldbuser@kajoldemoserver',
-  'password':'@Quarantine19*',
-  'database':'kajoldb'
-  #'client_flags': [ClientFlag.SSL],
-  #'ssl_cert': '/var/wwww/html/DigiCertGlobalRootG2.crt.pem'
+  'host':'HOST',
+  'user':'USER_NAME',
+  'password':'PASSWORD',
+  'database':'DATABASE_NAME'
 }
 
 # Construct connection string
