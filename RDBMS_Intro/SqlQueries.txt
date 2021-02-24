@@ -146,5 +146,5 @@ Ans:  select Emp_id,count(*) from Employees GROUP BY Emp_id;
 Write a query in SQL to list the no. of employees and average salary within each department for each job name.
 Ans:  select count(*), avg(Salary), Dept_id, Job_name from Employees GROUP BY Dept_id, Job_name;
 
-Write a query in SQL to list the names of those employees starting with 'A' and with six characters in length.\
+Write a query in SQL to list the names of those employees starting with 'A' and with six characters in length.
 Ans: select Emp_name from Employees where Emp_name LIKE 'A%' AND length(Emp_name)=6;
